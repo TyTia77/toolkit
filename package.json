@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/TyTia77/toolkit#readme",
   "peerDependencies": {
-    "react": "^19.2.6"
+    "react": ">=18",
+    "react-dom": ">=18"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
