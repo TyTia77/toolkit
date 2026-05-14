@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,14 @@
     "url": "https://github.com/TyTia77/toolkit/issues"
   },
   "homepage": "https://github.com/TyTia77/toolkit#readme",
+  "peerDependencies": {
+    "react": "^19.2.6"
+  },
   "devDependencies": {
+    "@types/react": "^18.0.0",
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "react-dom": "^19.2.6"
   }
 }
